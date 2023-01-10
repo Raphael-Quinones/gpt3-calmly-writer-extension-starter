@@ -1,6 +1,6 @@
 {
-  "name": "AI Email Writer",
-  "description": "Write up emails in no time!",
+  "name": "Blog Post Writer",
+  "description": "Write up blogs in no time!",
   "version": "0.0.0.1",
   "manifest_version": 3,
   "icons": {
@@ -16,7 +16,7 @@
   "background": {
     "service_worker": "scripts/contextMenuServiceWorker.js"
   },
-  "permissions": ["contextMenus", "activeTab", "storage"],
+  "permissions": ["contextMenus", "tabs", "storage"],
   "host_permissions": ["https://*/*"],
   "content_scripts" : [
     {
