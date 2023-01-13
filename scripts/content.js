@@ -18,6 +18,7 @@ const insert = (content) => {
 
     //get topmost div with name droid
     const element = elements[0]
+    console.log(element)
 
     //get first p tag to replace it in the top most part of the area
     const pToRemove = element.childNodes[0]

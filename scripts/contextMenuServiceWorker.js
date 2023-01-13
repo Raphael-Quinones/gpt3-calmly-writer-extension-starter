@@ -28,6 +28,7 @@ const sendMessage = (content) => {
 
 const generate = async (prompt) => {
   const key = await getKey();
+  console.log("afterkey")
   console.log("after key")
   const url = 'https://api.openai.com/v1/completions';
 	
